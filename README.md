@@ -5,7 +5,6 @@ You need to have the image inside the same folder when you run
 
 #seek-thermal
 
-**NOTE: The library does not support absolute temperature readings since we don't know how.**
 
 ## Credits
 
