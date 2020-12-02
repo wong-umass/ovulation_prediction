@@ -10,9 +10,9 @@ You need to have the image inside the same folder when you run
 ## Credits
 
 The code is based on ideas from the following repo's:
-* https://github.com/OpenThermal/libseek-thermal.git
 * https://github.com/BjornVT/Masterproef.git
 * https://github.com/zougloub/libseek
+* https://github.com/OpenThermal/libseek-thermal.git
 
 ## Build
 
