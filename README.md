@@ -1,4 +1,4 @@
-# ovulation_prediction
+# Ovulation_prediction
 For 597SD Class
 
 You need to have the image inside the same folder when you run
@@ -53,26 +53,8 @@ seek_viewer --camtype=seekpro --colormap=11 --mode=file --output=seek.avi       
 seek_viewer --camtype=seekpro --colormap=11 --mode=v4l2 --output=/dev/video0    # stream the thermal video to v4l2 device
 ```
 
-## Linking the library to another program
-
-After you installed the library you can compile your own programs/libs with:
-```
-g++ my_program.cpp -o my_program -lseek `pkg-config opencv --libs`
-```
-
-Using the following include:
-```
-#include <seek/seek.h>
-```
-
 # when using the Seek Thermal compact
 ```
 seek_test flat_field.png
 seek_viewer -t seek -F flat_field.png
-```
-
-# When using the Seek Thermal compact pro
-```
-seek_test_pro flat_field.png
-seek_viewer -t seekpro -F flat_field.png
 ```
